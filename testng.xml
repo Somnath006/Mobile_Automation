@@ -1,7 +1,8 @@
 <suite name="AutomationSuite">
   <test name="AutomationTests">
     <packages>
-      <package name="automation"/>
+      <package name="automation">
+      </package>
     </packages>
   </test>
 </suite>
