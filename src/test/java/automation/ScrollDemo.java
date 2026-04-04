@@ -44,7 +44,7 @@ public class ScrollDemo {
            File dest = new File("D:\\Screenshots\\test.png");
            Files.copy(source.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
 
-     //      driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
+    //       driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
            boolean scroll;
            do
            {

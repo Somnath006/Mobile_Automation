@@ -6,6 +6,7 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -34,6 +35,8 @@ public class ClickMethod {
         options.setDeviceName("Pixel 6");
 
         AndroidDriver driver = new AndroidDriver (new URL("http://127.0.0.1:4723"),options);
+
+
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 

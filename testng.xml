@@ -1,8 +1,8 @@
-<suite name="AutomationSuite">
+<suite name="AutomationSuite" parallel="false">
   <test name="AutomationTests">
-    <packages>
-      <package name="automation">
-      </package>
-    </packages>
+    <classes>
+      <class name="automation.ClickMethod">
+      </class>
+    </classes>
   </test>
 </suite>
